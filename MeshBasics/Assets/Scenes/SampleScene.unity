@@ -263,6 +263,7 @@ MonoBehaviour:
   xSize: 4
   ySize: 3
   zSize: 5
+  roundness: 1
 --- !u!23 &438671449
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -282,6 +283,8 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 5dddca5ecf6260847a8c68d367b2f057, type: 2}
+  - {fileID: 2100000, guid: 85b8b2ae492bc8443ac8f63891849c99, type: 2}
+  - {fileID: 2100000, guid: b46166c7a988529448dabbbc81b06701, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
