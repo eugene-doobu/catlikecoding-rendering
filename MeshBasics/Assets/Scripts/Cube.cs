@@ -251,8 +251,9 @@ public class Cube : MonoBehaviour
         return t;
     }
 
-    private void OnDrawGizmos () 
+    private void OnDrawGizmos ()
     {
+        return;
         if (vertices == null) return;
 
         Gizmos.color = Color.black;

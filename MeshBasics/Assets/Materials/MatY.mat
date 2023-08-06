@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: MatY
   m_Shader: {fileID: 4800000, guid: a7f803f6c1623d34789b06919820f4df, type: 3}
-  m_ShaderKeywords: _FACES_Y _NORMALMAP
+  m_ShaderKeywords: _FACES_X _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -60,7 +60,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Faces: 1
+    - _Faces: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.198
     - _GlossyReflections: 1
