@@ -2,6 +2,8 @@
 
 메시 기초 실습 프로젝트입니다.
 
+[![Video Label](http://img.youtube.com/vi/Ktcva3tmPHY/0.jpg)](https://youtu.be/Ktcva3tmPHY)
+
 [번역본 - 절차적 그리드](https://doobudubu.tistory.com/329)
 
 [번역본 - 큐브 렌더링](https://doobudubu.tistory.com/330)
