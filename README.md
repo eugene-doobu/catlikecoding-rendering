@@ -1,6 +1,9 @@
 # catlikecoding - rendering
 유니티에서의 렌더링 공부를 위한 catlikecoding 실습 프로젝트
 
+## 정리
+[Mesh Basic](https://github.com/eugene-doobu/catlikecoding-rendering/blob/main/MeshBasics/readme.md)
+
 ## 목차
 [Mesh Basic](https://catlikecoding.com/unity/tutorials/mesh-basics/): Basic정도는 보고 봐야 좋습니다.<br>
 [Rendering](https://catlikecoding.com/unity/tutorials/rendering/): Mesh Basic정도는 보고 봐야 좋습니다.<br>
