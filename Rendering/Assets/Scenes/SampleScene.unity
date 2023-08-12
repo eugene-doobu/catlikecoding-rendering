@@ -306,8 +306,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1997522160}
   - component: {fileID: 1997522161}
-  - component: {fileID: 1997522162}
   - component: {fileID: 1997522163}
+  - component: {fileID: 1997522164}
+  - component: {fileID: 1997522162}
+  - component: {fileID: 1997522165}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -368,4 +370,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c05de40c9bf52a24b9d779d906d83d1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scale: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+--- !u!114 &1997522164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997522159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fcaf212c17f9fc499fae7fa704252d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotation: {x: 0, y: 0, z: 0}
+--- !u!114 &1997522165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997522159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8f7db5cd9192948b3555f64180ec77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
