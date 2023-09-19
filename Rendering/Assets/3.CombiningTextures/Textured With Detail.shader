@@ -1,8 +1,9 @@
-﻿Shader "Custom/My First Shader" 
+﻿Shader "Custom/Textured With Detail" 
 {	
 	Properties {
 		_Tint ("Tint", Color) = (1, 1, 1, 1)
 		_MainTex ("Texture", 2D) = "white" {}
+		_DetailTex ("Detail Texture", 2D) = "gray" {}
 	}
 	SubShader {
 		Pass {
@@ -14,8 +15,8 @@
 			#include "UnityCG.cginc"
 
 			float4 _Tint;
-			sampler2D _MainTex;
-			float4 _MainTex_ST;
+			sampler2D _MainTex, _DetailTex;
+			float4 _MainTex_ST, _DetailTex_ST;
 			
 			struct Interpolators {
 				float4 position : SV_POSITION;
@@ -35,7 +36,9 @@
 			}
 
 			float4 MyFragmentProgram (Interpolators i) : SV_TARGET {
-				return tex2D(_MainTex, i.uv) * _Tint;
+				float4 color = tex2D(_MainTex, i.uv) * _Tint;
+				color *= tex2D(_MainTex, i.uv * 10) * 1;
+				return color;
 			}
 			ENDCG
 		}
